@@ -6,9 +6,6 @@
                 <h1>Guilherme Staffen</h1>
                 <p>Software Quality Assurance Analyst at <a href="https://www.testingcompany.com.br/" target="_blank">Testing Company</a></p>
             </div>
-            <div class="container-fliud">
-                <p>Scroll to more</p>
-            </div>
         </section>
 
         <!-- portfolio section -->
