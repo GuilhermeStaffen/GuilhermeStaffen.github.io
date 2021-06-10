@@ -1,13 +1,5 @@
 <template>
     <div>
-        <section class="section">
-            <div class="container-fliud">
-                <img alt="Guilherme Staffen" class="rounded-circle" id="imgCircle" src="../assets/guilherme.jpeg">
-                <h1>Guilherme Staffen</h1>
-                <p>Software Quality Assurance Analyst at <a href="https://www.testingcompany.com.br/" target="_blank">Testing Company</a></p>
-            </div>
-        </section>
-
         <!-- portfolio section -->
         <section class="protfolio">
             <h1>Employment History</h1>
@@ -72,7 +64,76 @@
                 </div>
             </div>
         </section>
-        
+
+        <section class="skills">
+            <h1>Skills</h1>
+            <p></p>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <p></p>
+                                    <h3>E2E Testing</h3>
+                                   
+                                </div>
+                            </div>
+                            <br>
+                    </div>
+
+                    <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <p></p>
+                                    <h3>Test Automation</h3>
+                                </div>
+                            </div>
+                        <br>
+                    </div>  
+
+                    <div class="col-md-4">
+                        <div class="card">
+
+                            <div class="card-body">
+                                <p></p>
+                                <h3>Test Planning</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <p></p>
+                                    <h3>Usability Testing</h3>
+                                </div>
+                            </div>
+                            <br>
+                    </div>
+
+                    <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <p></p>
+                                    <h3>Exploratory Testing</h3>
+                                </div>
+                            </div>
+                        <br>
+                    </div>  
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <p></p>
+                                <h3>Test Management</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </div>
 </template>
 
@@ -85,19 +146,19 @@
     }
 
     .protfolio{
-        background-color: #1b262c;
+        background-color: #f0f0f0;
         padding-top: 8%;
         padding-bottom: 15%;
         /* padding:15% */
     }
 
     .protfolio h1{
-        color: #D8E3E7;
+        color: #000000;
     }
 
     .protfolio .card{
-        background-color: #314149;
-        color: #D8E3E7;
+        background-color: #c4c4c4;
+        color: #000000;
     }
 
     .img-custome{
@@ -106,8 +167,18 @@
         margin-top: 15px;
     }
 
-    #imgCircle{
-        max-width: 300px;
-        max-height: 300px;
+    .skills{
+        background-color: #c4c4c4;
+        padding-top: 8%;
+        padding-bottom: 15%;
+    }
+
+    .skills h1{
+        color: #000000;
+    }
+
+    .skills .card{
+        background-color: #f0f0f0;
+        color: #000000;
     }
 </style>
