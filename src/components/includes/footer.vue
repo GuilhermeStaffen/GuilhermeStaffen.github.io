@@ -12,7 +12,7 @@
 
 <style lang="css" scoped>
 .footer {
-  background-color: #314149;
+  background-color: #181818;
 }
 .footer span {
   color: #d8e3e7;
