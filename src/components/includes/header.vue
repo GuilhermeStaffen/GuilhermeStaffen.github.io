@@ -9,9 +9,9 @@
       />
       <h1>Guilherme Staffen</h1>
       <p class="occupation">
-        Software Quality Assurance Analyst at
-        <a href="https://www.testingcompany.com.br/" target="_blank"
-          >Testing Company</a
+        Senior Test Automation Developer at
+        <a href="https://compass.uol/pt/home/" target="_blank"
+          >Compass.uol</a
         >
       </p>
       <div class="test-case">
